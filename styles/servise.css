@@ -1,0 +1,89 @@
+/* Servicos prestados */
+.service {
+    min-height: 110vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service header {
+    height: 30vh;
+    width: 100%;
+    background-color: white;
+    color: rgb(58, 84, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.service article {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.service article>div {
+    height: 100%;
+    width: 16vw;
+    color: rgb(58, 84, 180);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    background-image: url(../images/checkup.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+div:first-of-type .img {
+    background-image: url(../images/esconação.jpg);
+}
+
+div:last-of-type .img {
+    background-image: url(../images/dental.jpg);
+}
+
+.box-services {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+    gap: 30px;
+    align-items: center;
+}
+
+.box-services p {
+    font-size: 14px;
+}
+
+.reserve {
+    height: 40px;
+    width: 140px;
+    background-color: rgb(58, 84, 180);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.reserve:hover {
+    background-color: rgb(112, 124, 167);
+    transition: 0.3s;
+    cursor: pointer;
+}

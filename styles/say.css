@@ -1,0 +1,57 @@
+/* Avaliacoes de usuarios */
+.say {
+    min-height: 85vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.say header {
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    color: rgb(58, 84, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.say article {
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.say article>div {
+    height: 100%;
+    width: 17vw;
+    color: rgb(58, 84, 180);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box-say {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+    gap: 30px;
+    align-items: center;
+}
+
+.box-say p {
+    font-size: 14px;
+}
+
+.names {
+    font-weight: 600;
+}

@@ -1,0 +1,145 @@
+/* Contato */
+.contact {
+    min-height: 115vh;
+    background-color: rgb(58, 84, 180);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact header {
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(58, 84, 180);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+table {
+    color: white;
+    min-width: 100%;
+    height: fit-content;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    text-align: center;
+    line-height: 25px;
+}
+
+td,th {
+    width: 5%;
+    height: fit-content;
+}
+
+td {
+    font-size: 14px;
+}
+
+form {
+    height: fit-content;
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+form input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-weight: 100;
+}
+
+form input:hover {
+    border-bottom-color: blue;
+}
+
+form input:active {
+    background: none;
+    border: none;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form input::placeholder {
+    color: white;
+    font-weight: 100;
+}
+
+#nome {
+    width: 30vw;
+    height: 5vh;
+}
+
+#email {
+    width: 30vw;
+    height: 5vh;
+}
+
+#assunto {
+    width: 61vw;
+    height: 5vh;
+}
+
+#mensagem {
+    width: 61vw;
+    padding-bottom: 17vh;
+}
+
+#enviar {
+    width: 61vw;
+    height: 5vh;
+    justify-content: flex-start;
+}
+
+#enviar:hover {
+    background-color: rgba(255, 255, 255, 0.377);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#social-networks {
+    height: 35vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dog-footer {
+    display: flex;
+    margin-left: -20vw;
+    margin-top: 4.4vh;
+    position: absolute;
+}
+
+/* Redes sociais */
+#icons {
+    border-radius: 3px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#icons svg {
+    height: 5vh;
+    width: 5vh;
+    fill: white;
+}
+
+#icons svg:hover {
+    height: 5.5vh;
+    width: 5.5vh;
+    fill: blue;
+    transition: 0.1s;
+}

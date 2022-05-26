@@ -1,0 +1,62 @@
+/* Paragrafo falando um pouco sobre o veterinario */
+#user {
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#user article:first-of-type {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+#user article:first-of-type div {
+    height: 410px;
+    width: 410px;
+    background-image: url(../images/user.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#user article:last-of-type {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    font-size: 40px;
+    color: rgb(58, 84, 180);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding-right: 26%;
+    padding-left: 3%;
+}
+
+#user article:last-of-type p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 28px;
+}
+
+#user article:last-of-type div {
+    height: 40px;
+    width: 140px;
+    background-color: rgb(58, 84, 180);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#user article:last-of-type div:hover {
+    background-color: rgb(112, 124, 167);
+    transition: 0.3s;
+    cursor: pointer;
+}
